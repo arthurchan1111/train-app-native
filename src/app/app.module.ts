@@ -4,10 +4,10 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 import { AppComponent } from './app.component';
-import { NavComponent } from './app/navbar/navbar.component';
-import { LoginComponent } from './app/login/login.component';
-import { RegisterComponent } from './app/register/register.component'
-import { BartService } from './app/bart_service/bart.service';
+import { NavComponent } from './navbar/navbar.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+//import { BartService } from './app/bart_service/bart.service';
 
 @NgModule({
   declarations: [
@@ -17,10 +17,10 @@ import { BartService } from './app/bart_service/bart.service';
     RegisterComponent
   ],
   imports: [
-    BrowserModule,http://puu.sh/yylcI/95676a8320.jpg
+    BrowserModule,
     HttpClientModule
   ],
-  providers: [BartService],
+  providers: [/*BartService*/],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
