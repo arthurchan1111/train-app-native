@@ -16,7 +16,7 @@
     "url": "git+https://github.com/arthurchan1111/train-app.git"
   },
   "homepage": "https://github.com/arthurchan1111/train-app#readme",
-    "author": "Arthur Chan",
+  "author": "Arthur Chan",
   "private": true,
   "dependencies": {
     "@angular/animations": "^5.0.0",
@@ -48,12 +48,13 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "nativescript-angular": "^5.0.0",
+    "node-sass": "^4.6.0",
     "protractor": "~5.1.2",
+    "sass-loader": "^6.0.6",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "~2.4.2",
-    "node-sass": "^4.6.0",
-    "sass-loader": "^6.0.6",
     "webpack": "^3.8.1",
     "webpack-stream": "^4.0.0"
   }

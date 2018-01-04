@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-
+import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './navbar/navbar.component';
@@ -14,7 +14,8 @@ import { RegisterComponent } from './register/register.component';
     AppComponent,
     NavComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    NativeScriptModule
   ],
   imports: [
     BrowserModule,
