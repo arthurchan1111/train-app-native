@@ -1,9 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
-import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
+import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
+import { NativeScriptModule } from "nativescript-angular/nativescript.module";
+import { AppComponent } from "./app.component";
 
-import { AppComponent } from './app.component';
 import { NavComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
@@ -14,14 +12,19 @@ import { RegisterComponent } from './register/register.component';
     AppComponent,
     NavComponent,
     LoginComponent,
-    RegisterComponent,
-    NativeScriptModule
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    NativeScriptModule
   ],
   providers: [/*BartService*/],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [
+      NO_ERRORS_SCHEMA
+  ]
 })
+
+
 export class AppModule { }
